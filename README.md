@@ -1,2 +1,2 @@
-# wp-envato-child
-Wordpress plug-in to complete wp-envato-market in upgrade nested package plugin
+# envato-child
+Extension to envato-market for downloading full package and upgrading nested plugin
