@@ -41,7 +41,7 @@ if ( ! class_exists( 'Envato_Child_Github' ) ) :
 		 *
 		 * @var string
 		 */
-		private static $api_url = 'http://envato.github.io/wp-envato-child/dist/update-check.json';
+		private static $api_url = 'http://indienanni.github.io/wp-envato-child/dist/update-check.json';
 
 		/**
 		 * The Envato_Child_Items Instance
@@ -209,7 +209,7 @@ if ( ! class_exists( 'Envato_Child_Github' ) ) :
 						'slug'        => 'envato-child',
 						'plugin'      => 'envato-child/envato-child.php',
 						'new_version' => $api_check->version,
-						'url'         => 'https://github.com/envato/wp-envato-child',
+						'url'         => 'https://github.com/indienanni/wp-envato-child',
 						'package'     => $api_check->download_link,
 					);
 				}
