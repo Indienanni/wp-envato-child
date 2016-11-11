@@ -1,0 +1,31 @@
+{
+	"name": "Envato Child",
+	"slug": "envato-child",
+	"version": "1.0.0-RC2",
+	"author": "<a href=\"http://indienanni.com/\">Claudio Nanni</a>",
+	"author_profile": "//profiles.wordpress.org/indienanni",
+	"contributors": {
+		"indienanni": "//profiles.wordpress.org/indienanni"
+	},
+	"requires": "4.2",
+	"tested": "4.4",
+	"compatibility": {},
+	"rating": 0,
+	"num_ratings": "0",
+	"ratings": {},
+	"downloaded": 0,
+	"last_updated": "",
+	"added": "",
+	"homepage": "https://envato.github.io/wp-envato-child/",
+	"sections": {
+		"description": "@todo"
+	},
+	"short_description": "WordPress Theme & Plugin management for the Envato Market (Child).",
+	"download_link": "https://envato.github.io/wp-envato-child/dist/envato-child.zip",
+	"tags": {},
+	"donate_link": "",
+	"banners": {
+		"low": "https://envato.github.io/wp-envato-child/dist/banner-772x250.jpg",
+		"high": "https://envato.github.io/wp-envato-child/dist/banner-1544x500.jpg"
+	}
+}
