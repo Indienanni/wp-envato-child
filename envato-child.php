@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: Envato Child
- * Plugin URI: http://envato.github.io/wp-envato-market/
- * Description: WordPress Theme & Plugin management for the Envato Market.
- * Version: 1.0.0-RC2
- * Author: Derek Herman
- * Author URI: https://valendesigns.com/
+ * Plugin URI: http://indienanni.github.io/wp-envato-child/
+ * Description: WordPress Theme & Plugin integration for the Envato Market.
+ * Version: 1.0.0
+ * Author: Claudio Nanni
+ * Author URI: http://indienanni.com/
  * Requires at least: 4.2
  * Tested up to: 4.4
- * Text Domain: envato-market
+ * Text Domain: envato-child
  * Domain Path: /languages/
  *
  * @package Envato_Market
@@ -185,7 +185,7 @@ if ( ! class_exists( 'Envato_Child' ) ) :
 		 */
 		private function init_globals() {
 			$this->data        = new stdClass();
-			$this->version     = '1.0.0-RC2';
+			$this->version     = '1.0.0';
 			$this->slug        = 'envato-child';
 			$this->option_name = self::sanitize_key( $this->slug );
 			$this->plugin_url  = plugin_dir_url( __FILE__ );
