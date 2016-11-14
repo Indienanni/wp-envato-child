@@ -16,16 +16,16 @@
 	"downloaded": 0,
 	"last_updated": "",
 	"added": "",
-	"homepage": "https://envato.github.io/wp-envato-child/",
+	"homepage": "https://indienanni.github.io/wp-envato-child/",
 	"sections": {
-		"description": "@todo"
+		"description": "The Envato Child plugin extend Envato Market plugin by installing nested packages along the theme."
 	},
 	"short_description": "WordPress Theme & Plugin management for the Envato Market (Child).",
-	"download_link": "https://envato.github.io/wp-envato-child/dist/envato-child.zip",
+	"download_link": "https://indienanni.github.io/wp-envato-child/dist/envato-child.zip",
 	"tags": {},
 	"donate_link": "",
 	"banners": {
-		"low": "https://envato.github.io/wp-envato-child/dist/banner-772x250.jpg",
-		"high": "https://envato.github.io/wp-envato-child/dist/banner-1544x500.jpg"
+		"low": "https://indienanni.github.io/wp-envato-child/dist/banner-772x250.jpg",
+		"high": "https://indienanni.github.io/wp-envato-child/dist/banner-1544x500.jpg"
 	}
 }
