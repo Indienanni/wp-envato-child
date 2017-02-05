@@ -13,6 +13,7 @@ if ( ! class_exists( 'MultiPackage_university' ) ) :
          */
         function __construct($name) {
             parent::__construct($name);
+            //plugin name => zipname
             $this->nestedPackages=array( "theme" => "university", 
                                          "plugins" => array( "u-course" => "u-course", 
                                                              "u-member" => "u-member", 

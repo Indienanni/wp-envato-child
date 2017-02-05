@@ -133,8 +133,8 @@ if ( ! class_exists( 'Envato_Child' ) ) :
 		 * @return object The one true Envato_Market.
 		 * @codeCoverageIgnore
 		 */
-		public static function instance() {
-			if ( is_null( self::$_instance ) ) {
+		public static function instance() {                    
+			if ( is_null( self::$_instance ) ) {                                                       
 				self::$_instance = new self();
 				self::$_instance->init_globals();
 				self::$_instance->init_includes();
@@ -226,7 +226,7 @@ if ( ! class_exists( 'Envato_Child' ) ) :
 		 */
 		private function init_actions() {
 			// Activate plugin.
-			register_activation_hook( __FILE__, array( $this, 'activate' ) );
+			register_activation_hook( __FILE__, array( $this, 'activation' ) );
 
 			// Deactivate plugin.
 			register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
@@ -245,7 +245,7 @@ if ( ! class_exists( 'Envato_Child' ) ) :
 		 * @since 1.0.0
 		 * @codeCoverageIgnore
 		 */
-		public function activate() {
+		public function activation() {
 			self::set_plugin_state( true );
 		}
 
