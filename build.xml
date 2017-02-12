@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<!-- By default, only the Clean and Build commands use this build script. -->
+<!-- Commands such as Run, Debug, and Test only use this build script if -->
+<!-- the Compile on Save feature is turned off for the project. -->
+<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
+<!-- in the project's Project Properties dialog box.-->
+<project name="wp-envato-child-dist" default="default" basedir=".">
+    <description>Builds zip file.</description>
+  <!-- set global properties for this build -->
+  <property name="dir.build" location="dist"/>
+  <!-- <property name="dir.dist" location="dist"/> -->
+  <property name="dir.src" location="/Applications/MAMP/htdocs/unicusp/wp-content/plugins/envato-child" />
+
+
+  <target name="dist"
+        description="generate the distribution">
+      <zip destfile="${dir.build}/envato-child.zip"
+           basedir="${dir.src}"
+           excludes="**/.git*, **/.DS_Store*"
+           update="false"
+      /> 
+  </target>
+
+</project>
